@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    height: 100vh; 
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0.075),rgba(0,0,0,0.25),rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.753),rgba(0,0,0,0.9),rgb(0, 0, 0)), url(img/project78.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: cursive;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:cursive;
+    font-size: 15px;     
+}
+.main-nav li.acti a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: rgb(0, 0, 0);
+    transition: width.9s;
+}
+.main-nav li.acti a:hover::after{
+    width: 100%;
+}
+.row h1{
+    float: left;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+.row h1:hover{
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: transparent;
+}
+.map img{
+   margin-left: 80px;
+    width: 1200px;
+    opacity: 0.8;
+}
+

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: cursive;
+}
+.cont{
+    transform: translate(0%,15%);
+}
+.photos{
+    display: flex;
+    justify-content: center;
+}
+.photos img{
+    width: 200px;
+    cursor: pointer;
+    transition: 1s;
+}
+.photos img:hover{
+    transform: translateY(-10px);
+}
+.photos2{
+    display: flex;
+    justify-content: center;
+}
+.photos2 img{
+    width: 200px;
+    cursor: pointer;
+    transition: 1s;
+}
+.photos2 img:hover{
+    transform: translateY(10px);
+}
+img{
+    width: 200px;
+}
+.main img{
+    width: 800px;
+    margin-left: 253px;
+}
+@media screen and (max-width : 800px){
+    body{
+        background: rebeccapurple;
+    }
+    .photos img{
+        width: 25%;
+    }
+    .photos2 img{
+        width: 25%;
+    }
+    .main image{
+        width: 100%;
+    }
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+.backvid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.overlay{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.753);
+    
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:cursive;
+    font-size: 15px; ;
+}
+.main-nav li.acti a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: rgb(255, 255, 255);
+    transition: width.9s;
+}
+.main-nav li.acti a:hover::after{
+    width: 100%;
+   
+}
+.row h1{
+    float: left;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.row h1:hover{
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    color: transparent;
+}
+.hero{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    
+}
+#qq{
+    font-size: 70px;
+}
