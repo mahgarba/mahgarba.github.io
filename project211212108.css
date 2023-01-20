@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    min-height: 100vh; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+#leltop{
+    width: 100%;
+    min-height: 13vh;
+    background-color: rgb(243, 238, 229);
+}
+#leltop img{
+    float: left;
+    width: 10%;
+    height: 13vh;
+}
+.row{
+    max-width: 100%;
+    margin: auto;
+    margin-left: 20%;
+}
+.main-nav{
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    color: rgb(243, 144, 77);
+    text-decoration: none;
+    padding: 15px 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px; ;
+}
+#lelcenter{
+    max-width: 100%;
+    min-height: 67vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#lelcenter1{
+    padding-left: 30%;
+    padding-top: 10%;
+}
+#lelcenter2{
+    width: 100%;
+}
+#jjbb1{
+    width: 200px;
+    height: 250px;
+}
+#jjbb2{
+    width: 200px;
+    height: 250px;
+}
+#jjbb3{
+    width: 200px;
+    height: 250px;
+}
+#jjbb4{
+    width: 200px;
+    height: 250px;
+}
+#jjbb5{
+    width: 200px;
+    height: 250px;
+}
+#jjbb6{
+    width: 200px;
+    height: 250px;
+}
+#lelbottom{
+    max-width: 100%;
+    min-height: 20vh;
+    background-color: rgb(243, 238, 229);
+    color: rgb(243, 144, 77);
+}
+#lelbottom footer h3{
+    padding-left: 40px;
+}
+#fcb{
+    padding-left: 300px;
+    width: 30px;
+    height: 30px;
+    color: rgb(243, 144, 77);
+}
+#lkn{
+    padding-left: 330px;
+    width: 30px;
+    height: 30px;
+    color: rgb(243, 144, 77);
+}
+#twt{
+    padding-left: 360px;
+    width: 30px;
+    height: 30px;
+    color: rgb(243, 144, 77);
+}
